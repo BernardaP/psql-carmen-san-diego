@@ -48,9 +48,9 @@ empty line to quit.
 Write your SQL commands into different .sql files and execute them using
 
 ```
-psql -f query1.sql
-psql -f query2.sql
-psql -f query3.sql
+psql -d world -f query1.sql
+psql -d world -f query2.sql
+psql -d world -f query3.sql
 ... and so forth
 ```
 
